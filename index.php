@@ -56,16 +56,8 @@ for($i=0;$i<1000;$i++) {
     	die("One Of Connections Faild ! Number : ".$connectionNumberStatus." Round : "+$i);
     }
 
-    if($res['code']==307 || $res['code']==200) {
-    if($i>=199){
-    echo $res['result']+"<br><br><br>";
-    }
-    }else{
-    die("One Of Connections Faild ! Number : ".$connectionNumberStatus);
-    }
-
     // Echo Result After Each Register
-    echo $res['result'];
+    // echo $res['result'];
     // You Can Slow Proccess By Uncommenting Below Line To Prevent Spammer From Block And Firewall ... 	
     //sleep(1);
 
