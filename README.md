@@ -1,6 +1,6 @@
 # Spammer
 Php Spammer For Send Comment Or Register Fake Users In WebSites
-# Important Notic
+# Important Notice
 - Create Empty cookies.txt File In Side Of Index.php File For Cookie Support
 # Usage
 - Open Index.php For Samples Of Register , Login , Comment , Logout
